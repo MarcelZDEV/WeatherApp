@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'montserrat', sans-serif;
+    background-image: url('pexels-jacob-colvin-1761279.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.search {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    outline: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    background: rgb(255, 255, 255, 0);
+}
+
+.location {
+    margin-top: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.city {
+    font-size: 35px;
+    text-shadow: 1px 6px #000000;
+    margin-bottom: 10px;
+}
+
+.weather {
+    margin-top: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.temp {
+    font-size: 60px;
+    text-shadow: 1px 6px #000000;
+}
+
+.weather-type {
+    margin-top: 20px;
+}
+
+.lowest-highest {
+    margin-top: 5px;
+}
